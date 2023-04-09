@@ -12,7 +12,7 @@ namespace MayanEDMSCSharpExample.MayanEDMS
         public const int Certificate_of_Conformance = 5;
         public const int DNC_Cert = 15;
         public const int Declaration_of_Conformity = 14;
-        public const int Holloway_BOL = 9;
+        public const int Our_BOL = 9;
         public const int MTR = 12;
         public const int Mill_Test_Certificate = 13;
         public const int Our_Packing_List = 9;

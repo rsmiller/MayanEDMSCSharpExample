@@ -37,6 +37,7 @@ var file_info = new FileInfo(@"C:\SomeFileAndJunk.pdf");
 
 var created_response = await client.CreateDocument(file_info.Name, file_info.FullName, MayanDocumentTypeId.Sales_Order);
 
+
 ////////////////////////////////////////////////////////////////////////////////
 /// Add meta data to the created file
 /// 
