@@ -35,7 +35,7 @@ if(search_results.Success)
 /// 
 var file_info = new FileInfo(@"C:\SomeFileAndJunk.pdf");
 
-var created_response = await client.CreateDocument(file_info.Name, file_info.FullName, MayanDocumentTypeId.Sales_Order);
+var created_response = await client.CreateDocument(file_info.Name, file_info.FullName, MayanDocumentAction.Replace, MayanDocumentTypeId.Sales_Order);
 
 
 ////////////////////////////////////////////////////////////////////////////////
